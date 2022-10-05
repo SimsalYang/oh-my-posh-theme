@@ -169,7 +169,7 @@
             "always_enabled": true
           },
           "style": "powerline",
-          "template": " {{ if gt .Code 0 }}{{ .Meaning }}{{ else }}\u2714{{ end }} ",
+          "template": " {{ if gt .Code 0 }}{{ .Meaning }}{{ else }}\uf00c{{ end }} ",
           "type": "exit"
         },
         {
